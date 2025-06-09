@@ -1,0 +1,52 @@
+background{
+    background-image: url(https://i.pinimg.com/736x/5e/8c/1f/5e8c1fac2b3ab62254d8dd2f3ee29e5f.jpg);
+    height: 100px;
+    width: 1000px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: rgb(18, 18, 87);
+}
+
+.timer{
+    font-size: 72px;
+    color: black;
+}
+
+button{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity 3s;
+}
+
+button:hover{
+    opacity: 7;
+}
+
+#start{
+    background-color: rgb(158, 197, 158);
+}
+
+#stop{
+    background-color: rgb(240, 42, 42);
+}
+
+#reset{
+    background-color: rgb(250, 182, 105);
+}
